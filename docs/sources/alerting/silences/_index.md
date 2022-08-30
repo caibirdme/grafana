@@ -14,7 +14,7 @@ weight: 450
 
 # About alerting silences
 
-Use silences to stop notifications from one or more alerting rules. Silences do not prevent alert rules from being evaluated. Nor do they not stop alerting instances from being shown in the user interface. Silences only stop notifications from getting created. A silence lasts for only a specified window of time.
+Use silences to stop notifications from one or more alerting rules. Silences do not prevent alert rules from being evaluated. Nor do they stop alerting instances from being shown in the user interface. Silences only stop notifications from getting created. A silence lasts for only a specified window of time.
 
 Silences do not prevent alert rules from being evaluated. They also do not stop alert instances from being shown in the user interface. Silences only prevent notifications from being created.
 
