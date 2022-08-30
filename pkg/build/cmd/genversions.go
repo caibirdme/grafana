@@ -18,7 +18,7 @@ func GenerateVersions(c *cli.Context) error {
 	if c.NArg() == 1 {
 		version = strings.TrimPrefix(c.Args().Get(0), "v")
 	} else {
-		buildID := c.String("build-id")
+		buildID := os.Getenv("DRONE_BUILD_NUMBER")
 		var err error
 		version, err = config.GetGrafanaVersion(buildID, ".")
 		if err != nil {
